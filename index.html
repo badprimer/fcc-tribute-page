@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tribute Page | freeCodeCamp Project</title>
+  </head>
+  <body id="home">
+    <!-- Header -->
+    <header id="showcase">
+      <div class="container">
+        <div class="showcase-container">
+          <div class="showcase-content text-center">
+            <h1 id="title" class="l-heading">Jimi Hendrix</h1>
+            <h3 class="m-heading">1942 - 1970</h3>
+          </div>
+        </div>
+        <div class="scrollDown bounce">
+          <a href="#main"><i class="fas fa-chevron-down fa-2x"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- Section Main: Quote -->
+    <section id="main">
+      <div class="container">
+        <div class="item">
+          <div class="items">
+            <div id="img-div">
+              <img src="./img/jimi.jpg" alt="Jimi Hendrix" id="image" />
+              <div id="img-caption">
+                <p>Jimi Hendrix, 1968</p>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <p class="lead">
+              I used to live in a room full of mirrors; all I could see was me.
+              I take my spirit and I crash my mirrors, now the whole world is
+              here for me to see.
+            </p>
+            <p>- Jimi Hendrix</p>
+          </div>
+        </div>
+        <div class="scrollDown bounce">
+          <a href="#tribute-info"><i class="fas fa-chevron-down fa-2x"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section A: Tribute Info -->
+    <section id="tribute-info">
+      <div class="tribute-container">
+        <h2 class="l-heading">Biography</h2>
+        <h3>
+          James Marshall "Jimi" Hendrix was an American rock guitarist, singer,
+          and songwriter. Although his mainstream career spanned only four
+          years, he is widely regarded as one of the most influential electric
+          guitarists in the history of popular music, and one of the most
+          celebrated musicians of the 20th century.
+        </h3>
+        <a
+          href="https://en.wikipedia.org/wiki/Jimi_Hendrix"
+          id="tribute-link"
+          class="btn"
+          target="_blank"
+          >Read More <i class="fas fa-angle-double-right"></i
+        ></a>
+      </div>
+      <div class="backToTop bounce">
+        <a href="#home"><i class="fas fa-chevron-up fa-2x"></i></a>
+      </div>
+    </section>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local JS File -->
+    <script src="./main.js"></script>
+
+    <!-- FCC Validation -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
